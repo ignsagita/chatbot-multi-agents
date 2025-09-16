@@ -11,6 +11,11 @@ from io import StringIO
 # Add current directory to Python path for imports
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
+api_key = st.secrets.get("OPENAI_API_KEY", os.getenv("OPENAI_API_KEY"))
+model = st.secrets.get("OPENAI_MODEL", os.getenv("OPENAI_MODEL", "gpt-3.5-turbo"))
+max_tokens = st.secrets.get("MAX_TOKENS", int(os.getenv("MAX_TOKENS", 150)))
+temperature = st.secrets.get("TEMPERATURE", float(os.getenv("TEMPERATURE", 0.1)))
+
 # Import your modules
 try:
     from agents.triage_agent import TriageAgent
@@ -183,10 +188,10 @@ class CustomerSupportApp:
         """Initialize AI agents"""
         try:
             # Get API key from config or environment
-            api_key = getattr(Config, 'OPENAI_API_KEY', os.getenv('OPENAI_API_KEY'))
+            api_key = st.secrets.get("OPENAI_API_KEY", os.getenv("OPENAI_API_KEY"))
             
             if not api_key:
-                st.error("⚠️ OpenAI API key not configured. Please set OPENAI_API_KEY in environment variables.")
+                st.error("⚠️ OpenAI API key not configured. Please set OPENAI_API_KEY in Streamlit secret or .env file.")
                 st.stop()
             
             self.triage_agent = TriageAgent(api_key)
