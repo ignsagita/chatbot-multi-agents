@@ -1,0 +1,132 @@
+{
+  "records": [
+    {
+      "id": 1,
+      "category": "return_policy",
+      "question": "What is the return policy?",
+      "answer": "Items can be returned within 30 days of purchase with original receipt. Refunds will be processed to the original payment method within 5-7 business days.",
+      "keywords": [
+        "return",
+        "policy",
+        "refund",
+        "30 days"
+      ]
+    },
+    {
+      "id": 2,
+      "category": "shipping",
+      "question": "Do you ship internationally?",
+      "answer": "Yes, we ship to over 50 countries worldwide. International shipping typically takes 7-14 business days and costs vary by destination. Please note that customs fees may apply.",
+      "keywords": [
+        "international",
+        "shipping",
+        "worldwide",
+        "customs"
+      ]
+    },
+    {
+      "id": 3,
+      "category": "payment",
+      "question": "What payment methods do you accept?",
+      "answer": "We accept Visa, Mastercard, American Express, PayPal, and Apple Pay. All payments are processed securely through our encrypted payment system.",
+      "keywords": [
+        "payment",
+        "visa",
+        "mastercard",
+        "paypal",
+        "apple pay"
+      ]
+    },
+    {
+      "id": 4,
+      "category": "warranty",
+      "question": "What warranty do you provide?",
+      "answer": "All products come with a 1-year manufacturer warranty. Extended warranty options are available for purchase. Warranty covers manufacturing defects but not physical damage.",
+      "keywords": [
+        "warranty",
+        "1 year",
+        "manufacturer",
+        "defects"
+      ]
+    },
+    {
+      "id": 5,
+      "category": "product_specs",
+      "question": "What are the dimensions of the Wireless Bluetooth Headphones?",
+      "answer": "The Wireless Bluetooth Headphones (PRD001) measure 7.5 x 6.5 x 3 inches and weigh 0.8 lbs. They feature 40mm drivers and 20-hour battery life.",
+      "keywords": [
+        "bluetooth",
+        "headphones",
+        "dimensions",
+        "PRD001",
+        "specs"
+      ]
+    },
+    {
+      "id": 6,
+      "category": "product_specs",
+      "question": "Is the Smartphone Case compatible with all phone models?",
+      "answer": "The Smartphone Case (PRD002) is available in multiple sizes for iPhone and Samsung models. Please check the compatibility chart before ordering.",
+      "keywords": [
+        "smartphone",
+        "case",
+        "PRD002",
+        "compatibility",
+        "iphone",
+        "samsung"
+      ]
+    },
+    {
+      "id": 7,
+      "category": "technical",
+      "question": "How do I connect the Wireless Mouse?",
+      "answer": "The Wireless Mouse (PRD005) connects via USB receiver. Insert the receiver into your computer's USB port, turn on the mouse, and it will connect automatically.",
+      "keywords": [
+        "wireless",
+        "mouse",
+        "PRD005",
+        "connect",
+        "USB"
+      ]
+    },
+    {
+      "id": 8,
+      "category": "technical",
+      "question": "How long does the Power Bank take to charge?",
+      "answer": "The Power Bank (PRD006) takes 4-6 hours to fully charge using the included USB-C cable. LED indicators show charging progress.",
+      "keywords": [
+        "power",
+        "bank",
+        "PRD006",
+        "charge",
+        "USB-C",
+        "LED"
+      ]
+    },
+    {
+      "id": 9,
+      "category": "account",
+      "question": "How do I track my order?",
+      "answer": "You can track your order using the tracking number sent to your email. Visit our website and enter your order number and email address in the tracking section.",
+      "keywords": [
+        "track",
+        "order",
+        "tracking number",
+        "email"
+      ]
+    },
+    {
+      "id": 10,
+      "category": "account",
+      "question": "Can I change my shipping address after ordering?",
+      "answer": "Shipping address can only be changed within 2 hours of placing the order. Contact customer support immediately if you need to make changes.",
+      "keywords": [
+        "shipping",
+        "address",
+        "change",
+        "2 hours",
+        "contact support"
+      ]
+    }
+  ]
+}
